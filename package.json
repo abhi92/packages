@@ -1,0 +1,21 @@
+{
+  "name": "gateway-service-layer",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "10.2.0",
+    "@angular/core": "10.2.0",
+    "@angular/router": "10.2.0",
+    "rxjs": "~6.5.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/gateway-service.umd.js",
+  "module": "fesm2015/gateway-service.js",
+  "es2015": "fesm2015/gateway-service.js",
+  "esm2015": "esm2015/gateway-service.js",
+  "fesm2015": "fesm2015/gateway-service.js",
+  "typings": "gateway-service.d.ts",
+  "metadata": "gateway-service.metadata.json",
+  "sideEffects": false
+}
